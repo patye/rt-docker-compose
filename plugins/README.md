@@ -1,0 +1,1 @@
+Ebbe a könyvtárba kerülnek a pluginek
