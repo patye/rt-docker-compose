@@ -7,8 +7,6 @@ services:
     command: --max_allowed_packet=1024M
     environment:
       - MYSQL_ROOT_PASSWORD=rootpass
-    ports:
-      - 3306:3306
     networks:
       - rt-network
     volumes:
