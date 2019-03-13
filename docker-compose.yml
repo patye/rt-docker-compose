@@ -15,7 +15,7 @@ services:
       - mysql-rt-volume:/var/lib/mysql
   rt:
     container_name: rt
-    image: docca/rt4
+    image: patye/rt4:1
     environment:
       - RT_WEB_PORT=8080
     ports:
