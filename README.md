@@ -22,7 +22,7 @@ docker restart rt
 
 ## Eltávolítás
 ```
-docker-composer down -v
+docker-compose down -v
 ```
 
 ## Használat
