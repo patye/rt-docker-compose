@@ -21,8 +21,8 @@ services:
     networks:
       - rt-network
     volumes:
-      - $PWD/Custom_SiteConfig.pm:/opt/rt4/etc/RT_SiteConfig.d/Custom_SiteConfig.pm
-      - $PWD/plugins:/opt/rt4/local/plugins
+      - "./Custom_SiteConfig.pm:/opt/rt4/etc/RT_SiteConfig.d/Custom_SiteConfig.pm"
+      - "./plugins:/opt/rt4/local/plugins"
 networks:
   rt-network:
 volumes:
